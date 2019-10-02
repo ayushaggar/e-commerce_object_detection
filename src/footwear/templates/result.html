@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Result</title>
+  </head>
+   <body>
+    <h1>Footwear Result in Result Folder in Flask Folder </h1>
+    <form action = "{{ url_for('upload_file') }}">
+       <input type="submit" value="New Request" />
+    </form>
+
+    <div align=center>
+        <img src="{{ img_filename }}"
+             style="border:4px solid red; width: 110px; height: 110px;">
+    </div>
+    <br>
+    <br>
+   </body>
+</html>

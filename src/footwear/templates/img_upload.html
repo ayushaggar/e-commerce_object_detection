@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Footwear Image Upload</title>
+  </head>
+   <body>
+     <h1>Upload Footwear for Object Detection</h1>
+      <form action = "{{ url_for('process_img_upload') }}" method = "POST"
+         enctype = "multipart/form-data">
+         <input type = "file" name = "image" />
+         <br>
+         <br>
+         <br>
+         <input type = "submit" value = "Find Result"/ >
+      </form>
+   </body>
+</html>
