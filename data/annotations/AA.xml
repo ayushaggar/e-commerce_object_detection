@@ -1,0 +1,26 @@
+<annotation>
+	<folder>zipper</folder>
+	<filename>AA.jpg</filename>
+	<path>/media/gaurav/101362a1-85a3-46e2-9257-511acdb988aa/Work/Official/closure_type/OD/darkflow/zipper/AA.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>1125</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>zip</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>128</xmin>
+			<ymin>430</ymin>
+			<xmax>325</xmax>
+			<ymax>673</ymax>
+		</bndbox>
+	</object>
+</annotation>
